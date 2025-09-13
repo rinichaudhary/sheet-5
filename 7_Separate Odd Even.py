@@ -1,15 +1,16 @@
 A = [1, 2, 3, 4, 5]
-for x in A:
-    if x % 2 != 0: # for odd 
-        print(x, end=' ')
+for i in A:
+    if i % 2 != 0:  
+        print(i, end=' ')
 print()  
-for x in A:    # for even
-    if x % 2 == 0:
-        print(x, end=' ')
+for i in A:    
+    if i % 2 == 0:
+        print(i, end=' ')
 print()
 
 A = [2, 6, 8, 1]
 B = []
-for x in A:
+for i in A:
     B.append(x ** 2)
 print(B)
+
