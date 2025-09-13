@@ -1,5 +1,6 @@
 A = [1, -5, 2, -8, -4]
 
-for x in A:
-    if x < 0:
-        print(x)
+for i in A:
+    if i < 0:
+        print(i)
+
